@@ -13,7 +13,7 @@
 - **Superseded:** `moderator/threat-log-drops-1-2.md` was an earlier, non-standard log of these same two drops. This file replaces it.
 - **Evaluation format:** `AllThreadLog/threat-evaluation-format.md`
 
-The playthrough is named for its main thread so far: things that ride the pods.
+The playthrough is named for its two drops: the Glassman's glass, grown from red crystal at the grain terminal, and the burning refinery at CR-11. Its main thread so far is things that ride the pods.
 - At GT-9 a cultist practitioner (Enn calls him "the Glassman") got inside pod 9, tied the wheel shut from inside, and talked about riding the red up "to listen where it goes."
 - Back on the ship, a veteran sells Enn the story of cradle 22. It was a red pod that came up jammed from inside, crusted white with ringing glass, its crew dead in their seats. On the floor lay a long dark robe, wet, laid out flat. Nobody was in it.
 - At CR-11 the grey "C" box bolted into red pods turns out to be "part of how I hear you." Cassel, the AI handler, repeats a line spoken inside the sealed pod.

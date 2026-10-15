@@ -8,7 +8,7 @@
 - **Narrator notes:** `coreworld (playthrough4)/narrator-notes-SPOILERS.md`
 - **Evaluation format:** `AllThreadLog/threat-evaluation-format.md`
 
-The playthrough is named for its main thread so far: ACC rings etched onto pod hatches. Pod 31 came back ringed with its crew alive. Pod 8 came back ringed and full of powder.
+The playthrough is named for Pall, a Shooter, on the first playthrough run in Trailblaze mode. Its main thread so far is ACC rings etched onto pod hatches. Pod 31 came back ringed with its crew alive. Pod 8 came back ringed and full of powder.
 
 **Drops so far**
 

@@ -10,7 +10,7 @@
 - **Player-facing record:** `campaign-ledger-01.md`, `campaign-ledger-02.md`, `session-log-01.md`, `session-log-02.md`
 - **Evaluation format:** `AllThreadLog/threat-evaluation-format.md`
 
-The playthrough is named for the four tally marks scratched into the ceiling above bunk 41. The previous occupant made one per drop and never made a fifth. That ceiling became the first nightmare, and it fits the main thread: things that get counted and marked.
+The playthrough is named for the boot trail at RS-4. Tam's boots, soaked in the heap's nest muck, left dark prints that the heap followed faster than anything else, and Dace laid those same boots as a trail that led it into the deep mud and sank it. The main thread so far is things that get counted and marked. The four tally marks above bunk 41, one per drop and never a fifth, became the first nightmare.
 - The ACC drew a cross over Pod 14 and its crew, and two clean lines came home etched on the hull. Nobody on the ship had survived a cross before. At LV-11 it crossed Brask too.
 - Levellers plane away whatever gets marked.
 - Enn keeps losing small pieces of memory.
