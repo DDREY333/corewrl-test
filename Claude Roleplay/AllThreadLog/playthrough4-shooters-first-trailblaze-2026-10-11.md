@@ -1,4 +1,4 @@
-# Playthrough 4: "The Ringed Hatch"
+# Playthrough 4: "Shooter's First Trailblaze"
 
 - **Played:** 2026-10-11 (logged 2026-10-15)
 - **Format:** The Starless Sky (+2 actual danger)

@@ -1,4 +1,4 @@
-# Playthrough 3: "Four Lines, No Fifth"
+# Playthrough 3: "His Boot's Red Trail"
 
 - **Played:** 2026-10-10 (logged 2026-10-15)
 - **Format:** The Starless Sky (+3 actual danger under the prompt version in use at the time)

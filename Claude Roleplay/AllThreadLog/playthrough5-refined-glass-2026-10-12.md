@@ -1,4 +1,4 @@
-# Playthrough 5: "The Empty Robe"
+# Playthrough 5: "Refined Glass"
 
 - **Played:** 2026-10-12 to 2026-10-14 (logged 2026-10-15)
 - **Format:** The End of Nothing (crews start at two; +0 actual danger)
