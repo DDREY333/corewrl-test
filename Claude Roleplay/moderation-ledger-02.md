@@ -1,5 +1,7 @@
 # Coreworld IV: Moderation Chat Ledger 02
 
+> **Superseded by `moderation-ledger-03.md`** (2026-10-15) for the current state. Keep this file for the full reasoning behind decisions up to the Hollins review.
+
 This is the handoff for the next moderation (prompt-design) chat. It replaces ledger 01 as the current state. Keep `moderation-ledger-01.md` for history and detail: it holds the trim history, the full threat walkthrough notes (T1–T14, C1–C8, F1–F2), and older decisions.
 
 **Read `coreworld-moderator-prompt.md` first.** It holds the working method and the design principles. This ledger holds the current state, the decisions made, and what's still open.
@@ -15,6 +17,7 @@ All paths are relative to the `Claude Roleplay` folder.
 | `coreworld (playthrough2)/coreworld-prompt-v4.md` | **The live narrator prompt** (~56.6 KB, CRLF). All rule changes go here. |
 | `coreworld (playthrough2)/coreworld-prompt-v3.md` | The old backup. Don't edit it. |
 | `coreworld-moderator-prompt.md` | Instructions for moderation chats: how the user works, the self-critique method, design principles, and known narrator failure modes. |
+| `coreworld moderator/Monster Design Work (Reference Only)/monster-design-work.md` | Worked creature and threat examples (the Mimic, the Cyno, the Mendicants, the RS-9 drop) and the principles behind them. Reference only: never paste its creatures into the narrator prompt. Read it before designing creatures or threats. |
 | `moderation-ledger-01.md` | History: the trim, the threat walkthrough (threats 1–7), the combat notes, and the format intermission. |
 | `coreworld (playthrough3)/session-log-01.md`, `session-log-02.md` | Playthrough 3 feedback logs (Enn, Shooter, The Starless Sky). |
 | `playthrough1-feedback.md` | Playthrough 1 feedback. |
@@ -162,6 +165,35 @@ Memory: the project's Claude Code memory folder has the narrator feedback memori
    - **Applied (2026-10-13), item 7, L159:** "its counter always costs something real (see the cheapest-answer check in DROP DESIGN)". Item 1's check gives "something" a bar to meet. Cost categories and rising repeat costs were dropped (one duplicates CONSEQUENCES, the other risks T14).
    - **All items from this review are done.**
    - **Follow-up (2026-10-13), regrades as noise, L196:** "most drops have no regrade"; a regrade is planned when the drop is built, "never added on the fly because a drop turned out harder than you meant"; the drop is built and cost-checked at the rating the raise implies, while the posted pay reads the lower one. This replaced my "from then on" wording, which implied escalating after the announcement (the narrator's catch). Accepted side effect: hidden tuning upward can leave a hard drop underpaid with no signal. The two raises already given stay canon.
+11. **Hollins Yard review (CATENARY-7, 2026-10-15).** The narrator rated it 9/9/8/8 (perceived/designed/actual/psychological); the user rated it 4/7/6/4.
+   - **Ran on v6, before this review's fixes,** so the cost check, the full-strength line and the build checklist were already in force. The narrator followed them and found the gaps: hazards carried the cost check, perceived was rated from what it knew, and nothing required pressure that reaches the crew. The fixes below target those gaps. The user had played only 1 drop on the hub version and no town visit yet, so the hub is untested.
+   - **Evidence from Campaign Ledger #2** (the user pasted it with the narrator's pre-review v6):
+     - **Setup:** The Starless Sky plus Burnplan. Hollins was designed at 9 (6 + 2 + intake), played like 6, felt like 4.
+     - **Hub aboard works as designed:** the clock is followed, the wildcard room is "the Window", the terminal is known, groups are forming, and town threads were seeded before the first visit.
+     - **Concerns:** each downtime ran about 10 scenes (real time not yet reported; asked); continuity slips continue (a pronoun slip, two "a year" slips), though the audit caught them; Ledger #2 is about 9–10k tokens.
+     - **Visit timing fixed (applied):** the Visits line now says "about eight hours in town, then back aboard until the next drop", and the clock says the shuttle "returns about eight hours later". The clock counts from pod recovery, so the ship's day drifts; "a night… back by morning" would have broken if a drop ended around noon. The town visit comes right after Orison-2 (recovery about 2350, board about 0150, shuttle about 0250, back about 1050, drop 3 launch about 2150).
+     - **Advised:** start a new chat with the current v6 plus Ledger #2 before Orison-2, so the narrator builds it under the actual fixes rather than its paraphrase.
+   - **Core problem:** every threat only reacted to what the crew did (drill, radio, beacon, climbing), so leaving made the crew safe. The turn (the hangers massing on the pod) was "a lock, not a pursuer" and was bought off through Lowe. Hazards (the tower, live water, the charged hull) carried the cost. This is the same pattern as the Lurker and the pall.
+   - **Applied to v6:**
+     - **DROP DESIGN, after the site-doesn't-stand-still bullet, in the user's wording:** "Every drop pushes on us…". Something reaches the crew whatever they do: a seeker, a reactive threat whose needs grow, a setpiece that spreads or closes in, or a rival. A reactive threat is never the only pressure. Its approach shows before it arrives, and a grown need is a turn, its cause and behavior "may be visible" (the user's "may").
+     - **After the cost check:** hazards shape a drop and can still hurt, but don't carry its band, unless the hazard is the main setpiece or "fleshed out akin to an enemy: one that spreads, closes in, or worsens on its own over time". The user's dam and tunnel examples were generalized at their request, so they don't become defaults.
+   - **Whole-prompt difficulty sweep, applied:**
+     - The safest-path list now includes "moving somewhere it isn't".
+     - Noise responders "may search outward from there" (the user added "may").
+     - Perceived danger "comes only from what's on the page: hidden threats don't count toward it until we sense them".
+   - **Skipped:** "leeway is luck at the margins" (the user's call).
+   - **PACING's early-drops line replaced (applied):** the user removed the "simple to follow / smaller in scope" onboarding line, since onboarding comes from the character side and the first 3-hour drop is the only drop most players get. The generalized replacement: "Any drop may be the last one I play: make each a complete drop at full weight, with its turn and a climax at its own scale; its threads can carry on. Nothing about my character (new to the job, hurt, alone) makes a drop easier (see DIFFICULTY)."
+   - **Beast styles (applied), a new bullet in BEASTS "On a drop":**
+     - How a beast reaches the crew: hunters, reactors, holders, followers, growers.
+     - A species can have more than one, and an individual can lean differently by age, hunger or growth.
+     - Styles change the way beasts change (see Individuals).
+     - Mix styles across a playthrough; if a drop has several beasts, give them different styles, and never add a beast just to have a mix.
+     - Reactors and holders never carry a drop alone.
+     - The build checklist now includes "each beast's style (BEASTS)".
+     - Tested against the reference file: the Mimic is hunter + reactor, the Cyno holder + reactor when young and grower → hunter when old, the Mendicants holder + follower. No sixth style was needed.
+   - **Lowe:** the user doesn't know whether he was a cultist or a survivor; it never came up in play.
+   - **Rejected from the narrator's review:** "on a schedule we can read" (it would make the seeker a puzzle again).
+   - **Pending:** fix 3, a checklist addition ("what keeps the pressure on if we beat the turn early: something new, often following from how we beat it, never the old turn taken back"), and whether to rename "turn" to "twist" (the user didn't know the term).
 10. **v6 restructure (2026-10-14).** `coreworld-prompt-v6.md` is now the live prompt, and v5 is the backup. The restructure was structural only, with no rule text reworded. It was checked line by line: the only lines lost were the 6 old sub-header lines, which were restyled.
    - **A layout map** after the opening line. It lists the sections in file order, notes that sections are referenced by name, and points to BEFORE THE FIRST DROP as the start.
    - **DESIGN NOTES sub-headers** are now marked `--- X ---`.
