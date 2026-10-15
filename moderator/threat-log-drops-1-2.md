@@ -1,4 +1,6 @@
 # Coreworld IV — Threat Log for Moderator Review
+
+> **Superseded (2026-10-15):** this log is replaced by `Claude Roleplay/AllThreadLog/playthrough5-the-empty-robe-2026-10-12.md`, which follows the standard threat evaluation format. This file is kept only for history.
 **Campaign:** Coreworld IV (format: The End of Nothing; preset: Burnplan / Medium start)
 **Player character:** Enn (Rigger)
 **Scope:** Drop 1 (GT-9) and Drop 2 (CR-11, urgent/red)
