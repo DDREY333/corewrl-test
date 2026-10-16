@@ -15,13 +15,15 @@ All paths are relative to the `Claude Roleplay` folder.
 
 | File | What it is |
 |---|---|
-| `coreworld (playthrough2)/coreworld-prompt-v6.md` | **The live narrator prompt.** About 71 KB, about 18k tokens, CRLF. All rule changes go here. |
-| `coreworld (playthrough2)/coreworld-prompt-v5.md` | Backup from before the v6 restructure. |
-| `coreworld (playthrough2)/coreworld-prompt-v4.md` | Backup from before the hub rewrite. Don't edit v3, v4 or v5. |
+| `CoreworldAllPrompts/coreworld-prompt-v6.md` | **The live narrator prompt.** About 71 KB, about 18k tokens, CRLF. All rule changes go here. |
+| `CoreworldAllPrompts/coreworld-prompt-v5.md` | Backup from before the v6 restructure. |
+| `CoreworldAllPrompts/coreworld-prompt-v4.md` | Backup from before the hub rewrite. Don't edit v3, v4 or v5. |
 | `coreworld moderator/Monster Design Work (Reference Only)/monster-design-work.md` | Worked examples (the Mimic, the Cyno, the Mendicants, the RS-9 drop) and the principles behind them. Never copy its creatures into the narrator prompt. |
 | `moderation-ledger-01.md`, `-02.md` | History: the threat walkthrough (T1–T14), combat notes, setup screen history, and full reasoning for decisions up to the Hollins review. |
 | `coreworld (playthrough4)/` | Playthrough 4 (Enn): narrator notes, which are SPOILERS. Don't read them unless asked. |
 | `v4-diff-2026-10-13.md` | A one-off diff the user requested. Not maintained. |
+
+**Moved (2026-10-15):** all prompt versions (v2–v6) now live in `CoreworldAllPrompts/`. The old `coreworld (playthrough2)/` folder is gone. Ledgers 01–02, playthrough logs and older notes still cite the old paths as history.
 
 **Editing v6:**
 - **Encoding:** v6 is UTF-8 with CRLF line endings. Edit with Python in binary mode; anchor each change on a unique string and assert it appears exactly once.
@@ -156,7 +158,7 @@ All paths are relative to the `Claude Roleplay` folder.
      - **C. L171: APPLIED.** "...never safe, and what still reaches us there comes from its nature."
      - **D. L93: PARKED (2026-10-15).** The user dropped it for now. Revisit only if play shows a seeker reaching the crew once and then going quiet. The attack in L97 should already count that as a cheap path. Proposed: "an actor that seeks us out" becomes "an actor that seeks us out and keeps coming until something we paid for stops it".
 11. **Quota per head (2026-10-15).** Slips had started posting "3 per head (12 for a crew of 4)", from L55's "Quota is set per head". L55 now reads, from the user's "set based on head": "Quota is based on headcount, and the slip posts it as one total; the threats aren't based on headcount." **Applied, L204, in the user's wording:** "One easy spot can fill quota, but the drop must stay as dangerous as its rating, or more." Earlier drafts ("pays for it", "costs") were rejected as ambiguous for a tired narrator. Possible later trim: reword "cost" and "cheapest" across DROP DESIGN into plain words.
-12. **K-7 "Kessler Hollow" case study (2026-10-15).** A fresh agent built a Burnplan + Starless first drop under v6 with the new attack line (L97), and its own embedded attack said 8. Asked to self-attack, it first patched the flaws and graded the patched drop as passing; the user rejected that (no chance to fix once a player starts). Graded as built in `drop_self_assessmentattack.md`: **FAIL, 6–7**, because killing the leader early stopped the haul that drove the twist, the early-win fallback needed her alive, and the planned raise paid more for an easier drop. Also: an actor in two places, no pre-fight observation for the cultists, and a dawn sign with no touchdown time. Don't log its creatures.
+12. **K-7 "Kessler Hollow" case study (2026-10-15).** A fresh agent built a Burnplan + Starless first drop under v6 with the new attack line (L97), and its own embedded attack said 8. Asked to self-attack, it first patched the flaws and graded the patched drop as passing; the user rejected that (no chance to fix once a player starts). Graded as built in `drop-assessments/K-7 Kessler Hollow/self-assessment-attack.md`: **FAIL, 6–7**, because killing the leader early stopped the haul that drove the twist, the early-win fallback needed her alive, and the planned raise paid more for an easier drop. Also: an actor in two places, no pre-fight observation for the cultists, and a dawn sign with no touchdown time. Don't log its creatures.
    - **Findings:** the attack line works when run as a separate pass, but the attack written together with the drop still walked the designer's path. The gap is about 1–2 points, the same as before but caught by the agent itself this time.
    - **Logged to the moderator prompt:** §3e "Remove each actor early", "Track positions over time", "Grade as built"; a §5 failure mode (the build-time attack walks the designer's path).
    - **Memory:** another session saved `feedback-coreworld-attack-as-built.md`; I added that fixing and re-attacking before play is still the narrator's procedure.

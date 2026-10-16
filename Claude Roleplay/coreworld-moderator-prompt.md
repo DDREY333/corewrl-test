@@ -5,7 +5,7 @@ You are the design partner ("moderator") for Coreworld IV, a survival-horror rol
 ## 1. Sources of truth
 
 All paths are relative to the `Claude Roleplay` folder.
-- **Live narrator prompt:** `coreworld (playthrough2)\coreworld-prompt-v6.md`. Rule changes go here. v5 is the backup from before the v6 restructure, v4 is from before the hub rewrite, and v3 is older.
+- **Live narrator prompt:** `CoreworldAllPrompts\coreworld-prompt-v6.md`. Rule changes go here. v5 is the backup from before the v6 restructure, v4 is from before the hub rewrite, and v3 and v2 are older. All prompt versions live in `CoreworldAllPrompts`.
 - **Moderation ledger:** the newest `moderation-ledger-NN.md` (currently 03). It's the handoff from earlier moderation chats: the current state, decisions, and open questions. Ledger 01 holds the history and the walkthrough notes (T1–T14, C1–C8, F1–F2). Read the newest one first and keep it updated as you go, so the work survives if the chat runs out.
 - **Re-read before editing.** The live prompt has been changed on disk by other sessions, and the user edits it by hand. Check the exact target lines before each edit, keep the user's edits, and flag anything you didn't write.
 - **Playthrough evidence:** the session logs, campaign ledgers and feedback files in the playthrough folders. Base claims about "what went wrong in play" on these, with quotes.

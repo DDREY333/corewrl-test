@@ -20,7 +20,7 @@ Do these reads quietly. Don't narrate what you're reading or summarize the files
 
 ## Ledgers
 - When the player asks for a campaign ledger, write it as a NEW file with the next number (e.g. `05-campaign-ledger.md`). Never overwrite older ledgers.
-- Be PRECISE, not compact (the context window is large; cost is not a concern). Follow the 18-section LEDGER FORMAT in `../../coreworld-prompt-v2.md`:
+- Be PRECISE, not compact (the context window is large; cost is not a concern). Follow the 18-section LEDGER FORMAT in `../../CoreworldAllPrompts/coreworld-prompt-v2.md`:
   1. Header (number, exact "As of", supersedes, which older ledgers to keep).
   2. Corrections/retcons.
   3. Play rules and special actions.

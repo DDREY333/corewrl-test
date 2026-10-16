@@ -4,7 +4,7 @@ From the moderation chat of 2026-10-11 to 2026-10-12. Written so later moderatio
 
 **Reference only.** Nothing here is narrator prompt material.
 - The creatures and scenarios below are worked examples. Don't paste them into the narrator prompt: examples in a prompt become defaults that repeat every run.
-- The principles that came out of this work already live in the narrator prompt (now `coreworld (playthrough2)/coreworld-prompt-v6.md`, `=== BEASTS ===` and DESIGN NOTES; the work itself was done on v4) and in `coreworld-moderator-prompt.md` (sections 4 and 6).
+- The principles that came out of this work already live in the narrator prompt (now `CoreworldAllPrompts/coreworld-prompt-v6.md`, `=== BEASTS ===` and DESIGN NOTES; the work itself was done on v4) and in `coreworld-moderator-prompt.md` (sections 4 and 6).
 - **Open question:** does the user's own species (the Mimic, the Cyno) appear in play, or are they training examples only? It hasn't been decided.
 
 ---
@@ -242,7 +242,7 @@ The user asked for an example scenario, an Ashplan first drop. My first draft us
 
 ## 9. Where things live now
 
-- **Narrator prompt** `coreworld (playthrough2)/coreworld-prompt-v6.md` (the work was done on v4; it carried over to v6 as of 2026-10-15):
+- **Narrator prompt** `CoreworldAllPrompts/coreworld-prompt-v6.md` (the work was done on v4; it carried over to v6 as of 2026-10-15):
   - `=== BEASTS ===` (after THE WORLD)
   - In DESIGN NOTES, under its DROP DESIGN part: the drop-variety line, and "the site doesn't stand still"
   - The drop-length pacing knob
